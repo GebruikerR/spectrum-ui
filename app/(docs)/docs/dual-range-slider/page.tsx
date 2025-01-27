@@ -21,6 +21,17 @@ const DualRangeSliderPage = () => {
       title="Dual Range Slider"
       description="An enhancement slider that allows you to select a range of values."
     >
+      <PageSubTitle>About</PageSubTitle>
+      <P className="text-muted-foreground">
+        This component uses code from{' '}
+        <PropLink href="https://github.com/hsuanyi-chou/shadcn-ui-expansions">
+          <InlineCode>shadcn-ui-expansions</InlineCode>
+        </PropLink>{' '}
+          by Hsuanyi Chou, which is licensed under the{' '}
+        <PropLink href="https://github.com/hsuanyi-chou/shadcn-ui-expansions/blob/main/LICENSE">
+          MIT License
+        </PropLink>.
+      </P>
       
       <PreviewCodeCard path="app/(docs)/docs/dual-range-slider/dual-range-slider-demo.tsx">
         <DualRangeSliderDemo />
